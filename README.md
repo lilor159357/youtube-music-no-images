@@ -4,7 +4,7 @@
 
 </div>
 
-
+![Screenshot](web/screenshot.png "Screenshot")
 
 <div align="center">
 	<a href="https://github.com/lilor159357/youtube-music-no-images/releases/latest">
