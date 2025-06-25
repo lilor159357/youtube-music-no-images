@@ -621,6 +621,19 @@ const getDefaultLocale = (locale: string) =>
   Object.keys(languageResources).includes(locale) ? locale : null;
 
 app.whenReady().then(async () => {
+  session.defaultSession.webRequest.onBeforeRequest(
+    { urls: ['*://*/*'] }, // Apply this rule to all URLs
+    (details, callback) => {
+      // Check if the resource type is an image
+      if (details.resourceType === 'image') {
+        // Block the request by canceling it
+        callback({ cancel: true });
+      } else {
+        // Allow all other types of requests (scripts, music, etc.)
+        callback({ cancel: false });
+      }
+    },
+  );
   if (!config.get('options.language')) {
     const locale = getDefaultLocale(app.getLocale());
     if (locale) {
