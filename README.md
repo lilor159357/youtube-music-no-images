@@ -12,7 +12,6 @@
 
 </div>
 
-![Screenshot](web/screenshot.png "Screenshot")
 
 
 <div align="center">
@@ -29,11 +28,7 @@ Read this in other languages: [한국어](./docs/readme/README-ko.md), [Françai
 - Framework for custom plugins: change YouTube Music to your needs (style, content, features), enable/disable plugins in
   one click
 
-## Demo Image
 
-|                          Player Screen (album color theme & ambient light)                                |
-|:---------------------------------------------------------------------------------------------------------:|
-|![Screenshot1](https://github.com/th-ch/youtube-music/assets/16558115/53efdf73-b8fa-4d7b-a235-b96b91ea77fc)|
 
 ## Content
 
