@@ -15,7 +15,7 @@
 
 
 <div align="center">
-	<a href="https://github.com/th-ch/youtube-music/releases/latest">
+	<a href="https://github.com/lilor159357/youtube-music-no-images/releases/latest">
 		<img src="web/youtube-music.svg" width="400" height="100" alt="YouTube Music SVG">
 	</a>
 </div>
